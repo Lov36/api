@@ -9,7 +9,7 @@ class CategoriesService {
   }
 
   async generate() {
-    const limit = 10;
+    const limit = 5;
     for (let i = 0; i < limit; i++) {
       this.categories.push({
         categoryId: faker.datatype.uuid(),
