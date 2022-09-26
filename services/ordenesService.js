@@ -9,7 +9,7 @@ class OrdenesService {
   }
 
   async generate() {
-    const limit = 50;
+    const limit = 30;
     for (let i = 0; i < limit; i++) {
       this.ordenes.push({
         ordenId: faker.datatype.uuid(),

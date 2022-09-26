@@ -9,7 +9,7 @@ class UsersService {
   }
 
   async generate() {
-    const limit = 100;
+    const limit = 30;
     for (let i = 0; i < limit; i++) {
       this.users.push({
         usersId: faker.datatype.uuid(),
